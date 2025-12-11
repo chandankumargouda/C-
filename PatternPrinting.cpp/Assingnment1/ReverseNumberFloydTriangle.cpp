@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int n;
+    cout<<"Enter The Number Of Rowss :";
+    cin>>n;
+    int m;
+    cout<<"Enter The Number Of Columns :";
+    cin>>m;
+    for(int i=1;i<=n;i++){
+        for(int j=i;j>=1;j--){
+            cout<<j;
+        }
+        cout<<endl;
+    }
+    return 0;
+}
